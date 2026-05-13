@@ -1,0 +1,180 @@
+{
+  "capturedAt": "2026-05-13T10:29:51.358Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "webgpu": true,
+  "pageUrl": "http://localhost:3000/",
+  "phasesSeen": [
+    "load"
+  ],
+  "uniqueDomains": [
+    "cdn.jsdelivr.net",
+    "huggingface.co"
+  ],
+  "externalDomains": [
+    "cdn.jsdelivr.net",
+    "huggingface.co"
+  ],
+  "summaryByPhase": {
+    "load": {
+      "total": 19,
+      "external": [
+        "cdn.jsdelivr.net",
+        "huggingface.co"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "t": 1778661607894,
+      "iso": "2026-05-13T08:40:07.894Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/preprocessor_config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661608487,
+      "iso": "2026-05-13T08:40:08.487Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/processor_config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661608487,
+      "iso": "2026-05-13T08:40:08.487Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/main/tokenizer_config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661609073,
+      "iso": "2026-05-13T08:40:09.073Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/tokenizer.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661609074,
+      "iso": "2026-05-13T08:40:09.074Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/tokenizer_config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661609526,
+      "iso": "2026-05-13T08:40:09.526Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/tokenizer_config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661609626,
+      "iso": "2026-05-13T08:40:09.626Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/tokenizer.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661610222,
+      "iso": "2026-05-13T08:40:10.222Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661610726,
+      "iso": "2026-05-13T08:40:10.726Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611232,
+      "iso": "2026-05-13T08:40:11.232Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/onnx/embed_tokens_q4f16.onnx",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611232,
+      "iso": "2026-05-13T08:40:11.232Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/onnx/decoder_model_merged_q4f16.onnx",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611232,
+      "iso": "2026-05-13T08:40:11.232Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/onnx/vision_encoder_q4f16.onnx",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611233,
+      "iso": "2026-05-13T08:40:11.233Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/generation_config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611767,
+      "iso": "2026-05-13T08:40:11.767Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/onnx/embed_tokens_q4f16.onnx",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611767,
+      "iso": "2026-05-13T08:40:11.767Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/onnx/decoder_model_merged_q4f16.onnx",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611767,
+      "iso": "2026-05-13T08:40:11.767Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/onnx/vision_encoder_q4f16.onnx",
+      "method": "GET"
+    },
+    {
+      "t": 1778661611767,
+      "iso": "2026-05-13T08:40:11.767Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/7e3e67edbbed1bf9888184d9df282b700a323964/generation_config.json",
+      "method": "GET"
+    },
+    {
+      "t": 1778661641056,
+      "iso": "2026-05-13T08:40:41.056Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0-dev.20260416-b7804b056c/dist/ort-wasm-simd-threaded.asyncify.wasm",
+      "method": "GET"
+    },
+    {
+      "t": 1778661641056,
+      "iso": "2026-05-13T08:40:41.056Z",
+      "phase": "load",
+      "kind": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0-dev.20260416-b7804b056c/dist/ort-wasm-simd-threaded.asyncify.mjs",
+      "method": "GET"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "capturedAt": "2026-05-13T10:39:17.384Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "webgpu": true,
+  "pageUrl": "http://localhost:3000/",
+  "phasesSeen": [
+    "offline-reload"
+  ],
+  "uniqueDomains": [
+    "huggingface.co"
+  ],
+  "externalDomains": [
+    "huggingface.co"
+  ],
+  "summaryByPhase": {
+    "offline-reload": {
+      "total": 1,
+      "external": [
+        "huggingface.co"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "t": 1778668640585,
+      "iso": "2026-05-13T10:37:20.585Z",
+      "phase": "offline-reload",
+      "kind": "fetch",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/main/tokenizer_config.json",
+      "method": "GET"
+    }
+  ]
+}
