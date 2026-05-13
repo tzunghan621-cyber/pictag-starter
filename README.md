@@ -54,19 +54,25 @@ npm run dev
 
 → 改完瀏覽器自動 reload(Next.js dev server 內建 HMR),立刻看到變化。
 
-### 3. 開你自己的 GitHub repo
+### 3. 開你自己的 GitHub repo（含帳號申請、隱私設定）
 
-```bash
-# 砍掉這個 repo 帶來的 .git,重開乾淨的
-rm -rf .git
-git init -b main
-git add .
-git commit -m "Initial commit"
+完整 SOP 在 [`doc/manuals/github-setup-sop.md`](doc/manuals/github-setup-sop.md)——**設計給接手 agent 看的**，學員只要跟 agent 說：
 
-# 在 GitHub 開新 public repo(網頁操作),拿到 URL 後:
-git remote add origin https://github.com/<你的帳號>/<repo名>.git
-git push -u origin main
-```
+> 「請看 `doc/manuals/github-setup-sop.md`，一步一步帶我把這個專案 push 到我自己的 GitHub。」
+
+agent 會帶你做：申請帳號 → 帳號隱私三件套（email privacy / 關掉 Copilot 訓練同意 / 2FA）→ 裝 `gh` CLI → push 前「四查」（API key / .env / 個人路徑 / node_modules）→ `gh repo create --public --source=. --push` 一行開 repo → repo 防護（Dependabot + Secret scanning）。
+
+---
+
+## 想要的話也帶一份「開源安全檢查」SOP
+
+clone 別人 repo 之前，可以用 [`doc/manuals/opensource-security-sop.md`](doc/manuals/opensource-security-sop.md) 的「四道 Gate」檢查：**信譽 → 依賴 → 資產 → 執行時**。
+
+跟 agent 說：
+
+> 「我打算 clone 這個 repo: <URL>。請依 `doc/manuals/opensource-security-sop.md` 的四道 Gate 檢查，告訴我每一關有沒有紅旗。」
+
+實際案例（用本 repo 跑過一次）在 [`doc/case-studies/security-audit/`](doc/case-studies/security-audit/)。
 
 ---
 
